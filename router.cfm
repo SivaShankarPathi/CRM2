@@ -30,5 +30,6 @@
      <cfset data = application.controller.users(url, form) />
     <cfinclude template="views/registered_users.cfm" />
 <cfelseif crm eq "customers">
+<!---<cfset data = application.controller.customers(url, form) />--->
         <cfinclude template="views/customer.cfm" />
 </cfif>

@@ -1,0 +1,134 @@
+ .container {
+     background-color: white;
+     padding: 30px;
+     border-radius: 12px;
+     width: 85%;
+     margin: 40px auto 40px auto;
+     /* Pushes down from header */
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     box-sizing: border-box;
+ }
+ 
+ h2 {
+     text-align: center;
+     color: #333;
+     margin-bottom: 25px;
+ }
+ 
+ .filter-box {
+     background-color: #f8f9fa;
+     padding: 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     max-width: 700px;
+     margin: 0 auto 20px;
+ }
+ 
+ .filter-box label {
+     font-weight: bold;
+     color: #333;
+ }
+ 
+ .filter-box select {
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     width: 550px;
+ }
+ 
+ .search-bar-container {
+     background-color: #f8f9fa;
+     padding: 20px;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     flex-wrap: wrap;
+     max-width: 900px;
+     margin: 0 auto 20px;
+ }
+ 
+ .search-bar-container input[type="text"] {
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     width: 700px;
+     font-size: 16px;
+ }
+ 
+ .search-bar-container input[type="submit"] {
+     background-color: #28a745;
+     color: white;
+     padding: 12px 24px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 16px;
+ }
+ 
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+ 
+ th,
+ td {
+     padding: 15px;
+     text-align: left;
+     border: 1px solid #ddd;
+ }
+ 
+ th {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .edit-btn {
+     background-color: #ffc107;
+     color: black;
+     padding: 7px 14px;
+     border-radius: 5px;
+     text-decoration: none;
+ }
+ 
+ .delete-btn {
+     background-color: #dc3545;
+     color: white;
+     padding: 7px 14px;
+     border-radius: 5px;
+     text-decoration: none;
+ }
+ 
+ .pdf-btn {
+     background-color: #17a2b8;
+     color: white;
+     padding: 10px 16px;
+     text-decoration: none;
+     border-radius: 6px;
+     font-weight: 600;
+     white-space: nowrap;
+ }
+ 
+ .pdf-btn:hover {
+     background-color: #138496;
+ }
+ 
+ .back-submit_requests {
+     background-color: #28a745;
+     color: white;
+     padding: 8px 16px;
+     margin: 30px auto 0;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     text-align: center;
+     width: 150px;
+     display: block;
+ }

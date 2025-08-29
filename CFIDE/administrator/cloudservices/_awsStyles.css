@@ -1,0 +1,51 @@
+.aws-metadata .px350{
+    padding-bottom: 20px;
+}
+.aws-metadata .px500{
+    padding-bottom:20px;
+}
+.retry-inputs{
+    display: inline-block;
+}
+.retry-inputs.main-retry-type{
+    margin-top:10px;
+    width:25%;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+.retry-inputs.main-retry-value{
+    padding-left:20px;
+    width:70%;
+    vertical-align:top;
+    box-sizing: border-box;
+}
+.retry-condition-input{
+    display:inline-block;
+}
+.retry-condition-input.input-key{
+    width: 35%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.retry-condition-input.input-value{
+    width: 65%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.retry-condition-input.input-value input{
+    width: 100%;
+    padding:5px;
+}
+.retry-input-type1 {
+    display:none;
+}
+.retry-input-type2{
+    display:none;
+    padding: 0px 20px;
+}
+.clearfix:after {
+    display: table;
+    content: ' ';
+    clear: both;
+}

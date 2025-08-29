@@ -1,0 +1,61 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+    <deployment>
+	<exclude-subsystems>
+	  <subsystem name="jaxrs" />
+	  <subsystem name="webservices" />
+	  <subsystem name="resteasy" />
+		<subsystem name="mail" />
+	</exclude-subsystems>
+        <dependencies>
+            <system export="true">
+                <paths>
+                    <path name="com/sun/tools/javac"/>
+					<path name="com/sun/mail"/>
+                </paths>
+            </system>
+        </dependencies>
+	<exclusions>
+	      <module name="javax.ws.rs.api" />
+	      <module name="org.jboss.as.jaxrs" />
+	      <module name="org.jboss.resteasy.resteasy-jaxrs" />
+	      <module name="org.jboss.resteasy.resteasy-cdi" />
+	      <module name="org.jboss.resteasy.jackson-provider" />
+	      <module name="org.jboss.resteasy.resteasy-atom-provider" />
+	      <module name="org.jboss.resteasy.resteasy-hibernatevalidator-provider" />
+	      <module name="org.jboss.resteasy.resteasy-jaxb-provider" />
+	      <module name="org.jboss.resteasy.resteasy-jettison-provider" />
+	      <module name="org.jboss.resteasy.resteasy-jsapi" />
+	      <module name="org.jboss.resteasy.resteasy-multipart-provider" />
+	      <module name="org.jboss.resteasy.resteasy-yaml-provider" />
+	      <module name="org.codehaus.jackson.jackson-core-asl" />
+	      <module name="org.codehaus.jackson.jackson-jaxrs" />
+	      <module name="org.codehaus.jackson.jackson-mapper-asl" />
+	      <module name="org.codehaus.jackson.jackson-xc" />
+	      <module name="org.codehaus.jettison" />
+	      <module name="org.jboss.as.webservices.*" />
+	      <module name="org.jboss.ws.*" />
+		  <module name="javax.mail.api" />
+	</exclusions>    
+	<resources>
+	  <resource-root path="WEB-INF/cfusion/lib/serializer.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/xercesImpl.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/xalan.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/xml-apis.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/hk2-api-3.1.0.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/hk2-locator-3.1.0.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/hk2-utils-3.1.0.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jakarta.annotation-api-2.1.1.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jakarta.inject-api-2.0.1.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jakarta.validation-api-3.0.2.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jakarta.ws.rs-api-3.1.0.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/javassist-3.20.0-GA.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-client-3.1.3.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-common-3.1.3.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-container-servlet-3.1.3.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-container-servlet-core-3.1.3.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-hk2-3.1.3.jar" />
+	  <resource-root path="WEB-INF/cfusion/lib/jersey-server-3.1.3.jar" />
+		<resource-root path="WEB-INF/cfusion/lib/mail.jar" />
+    	</resources>
+    </deployment>
+</jboss-deployment-structure>

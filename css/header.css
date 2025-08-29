@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    min-width: 180px;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.logout-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #eaebed;
+    /* same blue as navbar */
+    color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    /* match navbar height */
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    /* ensure full viewport width */
+    z-index: 999;
+}

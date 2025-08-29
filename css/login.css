@@ -1,0 +1,81 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 40px 35px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+}
+
+.login-box input[type="submit"],
+.login-box .register-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box .register-btn {
+    background-color: #007bff;
+}
+
+.login-box .register-btn:hover,
+.login-box input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.login-box .register-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    text-align: left;
+    font-size: 14px;
+}

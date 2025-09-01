@@ -60,8 +60,8 @@
         <!-- Redirect if not logged in -->
         <cfif NOT structKeyExists(session, "userID")>
             <cflocation url="/CRM2/views/login.cfm?msg=Please+login+first" addtoken="false">
-            <cfreturn true>
+            <cfreturn false>
         </cfif>
-        <cfreturn false>
+        <cfreturn true>
     </cffunction>
 </cfcomponent>

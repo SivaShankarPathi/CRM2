@@ -63,5 +63,5 @@
             <cfreturn false>
         </cfif>
         <cfreturn true>
-    </cffunction>hii ats 
+    </cffunction>hii ats family
 </cfcomponent>

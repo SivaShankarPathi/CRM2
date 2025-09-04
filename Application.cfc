@@ -63,5 +63,5 @@
             <cfreturn false>
         </cfif>
         <cfreturn true>
-    </cffunction>hijiijijijijii
+    </cffunction>hi
 </cfcomponent>

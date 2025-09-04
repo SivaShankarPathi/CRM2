@@ -63,9 +63,5 @@
             <cfreturn false>
         </cfif>
         <cfreturn true>
-<<<<<<< HEAD
-    </cffunction>hii helloo
-=======
-    </cffunction>
->>>>>>> parent of 5bb7bfe (undo)
+    </cffunction>hijiijijijijii
 </cfcomponent>

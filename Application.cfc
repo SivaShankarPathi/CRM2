@@ -63,5 +63,5 @@
             <cfreturn false>
         </cfif>
         <cfreturn true>
-    </cffunction>good
+    </cffunction>
 </cfcomponent>
